@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macdonst/cordova-plugin-allow-backup.git"
+    "url": "git+https://github.com/kelter-antunes/cordova-plugin-allow-backup.git"
   },
   "keywords": [
     "cordova"
@@ -16,9 +16,9 @@
   "author": "Simon MacDonald",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macdonst/cordova-plugin-allow-backup/issues"
+    "url": "https://github.com/kelter-antunes/cordova-plugin-allow-backup/issues"
   },
-  "homepage": "https://github.com/macdonst/cordova-plugin-allow-backup#readme",
+  "homepage": "https://github.com/kelter-antunes/cordova-plugin-allow-backup",
   "devDependencies": {
     "pluginpub": "0.0.8"
   }
