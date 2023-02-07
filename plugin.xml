@@ -12,10 +12,6 @@
     <engine name="cordova-android" version=">=7.0.0"/>
   </engines>
   <preference name="ALLOW_BACKUP" default="false"/>
-
-  <!--Deprecated env variable, kept for legacy support-->
-  <preference name="BACKUP" default="$ALLOW_BACKUP"/>
-
   <platform name="android">
       <edit-config file="AndroidManifest.xml" 
                    target="/manifest/application" 
