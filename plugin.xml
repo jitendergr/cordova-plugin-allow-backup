@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-allow-backup" version="1.0.1">
+  xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-allow-backup" version="1.0.1">
   <name>cordova-plugin-allow-backup</name>
   <description>
 		To enable you to set the allowBackup property of a cordova-android application.
-	</description>
+  </description>
   <author>Miguel 'Kelter' Antunes</author>
   <repo>https://github.com/kelter-antunes/cordova-plugin-allow-backup</repo>
   <license>MIT</license>
@@ -15,10 +14,8 @@
   </engines>
   <preference name="ALLOW_BACKUP" default="false"/>
   <platform name="android">
-      <edit-config file="AndroidManifest.xml" 
-                   target="/manifest/application" 
-                   mode="merge">
-          <application android:allowBackup="$ALLOW_BACKUP"/>
-      </edit-config>
+    <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+      <application android:allowBackup="$ALLOW_BACKUP"/>
+    </edit-config>
   </platform>
 </plugin>
